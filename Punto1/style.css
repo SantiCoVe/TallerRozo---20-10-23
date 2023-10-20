@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.todo{
+    margin-left: 40rem;
+    margin-right: 40rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+}
+
+header{
+    width: 100%;
+    height: 10rem;
+    background-color: pink;
+}
+
+#colorPicker{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 40px;
+    margin-left: 53.5rem;
+    margin-top: 30px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoPersonal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.infoPersonal h1{
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+.infoPersonal p{
+    width: 28rem;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 21px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -6rem;
+}
+
+.imagen img{
+    width: 15rem;
+}
+
+footer{
+    width: 100%;
+    height: 12rem;
+    background-color: pink;
+}
+
+.contactos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .contactos img{
+    width: 70px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    margin: 40px;
+    margin-top: 50px;
+}
